@@ -17,7 +17,7 @@ DEBUG = True
 
 # ALLOWED_HOSTS = []
 ALLOWED_HOSTS = [".awsapprunner.com", "localhost", "127.0.0.1"]
-CSRF_TRUSTED_ORIGINS = ["https://md5iyiubie.us-east-1.awsapprunner.com/"]
+CSRF_TRUSTED_ORIGINS = ["https://md5iyiubie.us-east-1.awsapprunner.com"]
 
 
 # Application definition
