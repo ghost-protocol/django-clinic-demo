@@ -22,14 +22,14 @@ class ContactTemplateView(TemplateView):
         email = request.POST.get("email")
         message = request.POST.get("message")
 
-        email = EmailMessage(
-            subject= f"{name} from doctor family.",
-            body=message,
-            from_email=settings.EMAIL_HOST_USER,
-            to=[settings.EMAIL_HOST_USER],
-            reply_to=[email]
-        )
-        email.send()
+        # email = EmailMessage(
+        #     subject= f"{name} from doctor family.",
+        #     body=message,
+        #     from_email=settings.EMAIL_HOST_USER,
+        #     to=[settings.EMAIL_HOST_USER],
+        #     reply_to=[email]
+        # )
+        # email.send()
         return HttpResponse("Email sent successfully!")
     
 # def home(request):
