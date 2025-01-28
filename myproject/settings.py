@@ -13,7 +13,7 @@ SECRET_KEY = 'asoijdaJOI(*&(&-dfg4q-_4keem+q=kd(g6qwc5i2*2yfurwoicx%=@grfs2v8tds
 # SECRET_KEY = config("SK")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # ALLOWED_HOSTS = []
 ALLOWED_HOSTS = [".awsapprunner.com", "localhost", "127.0.0.1"]
